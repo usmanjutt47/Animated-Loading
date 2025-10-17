@@ -40,7 +40,7 @@ export default function Index() {
           duration: 350,
           easing: Easing.in(Easing.quad),
         }),
-        withTiming(0, { duration: 800 }) // Pause for 800ms
+        withTiming(0, { duration: 800 })
       );
 
       translateY1.value = withRepeat(bounceSequence, -1, false);
